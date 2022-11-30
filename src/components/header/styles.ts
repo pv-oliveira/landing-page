@@ -6,9 +6,9 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 0px 120px;
-gap: 127px;
+/* gap: 127px; */
 
-width: 100%;
+/* width: 100%; */
 height: 80px;
 `
 
