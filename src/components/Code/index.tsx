@@ -1,17 +1,8 @@
 import * as S from "./styles";
 
-import picture from "../../assets/pv.jpg";
-import Code from "../Code";
-
-const Presentation = () => {
-  return (<S.Container>
-    <S.PictureContainer>
-      <img src={picture} alt="picture of the profile"/>
-    </S.PictureContainer>
-
-
+const Code = () => {
+  return (
     <S.TextContainer>
-    <h6>
       {`let button_menu = document.querySelector(".header_button"); 
 let float_menu  = document.querySelector(".header_menu--float");
 
@@ -40,10 +31,9 @@ function writeSymbols() {
 
     writeSymbols();
     }
-}`}</h6>
+}`}
     </S.TextContainer>
-    </S.Container>
-      );
+  );
 };
 
-export default Presentation;
+export default Code;
