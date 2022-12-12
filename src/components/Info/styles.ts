@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Info = styled.div`
   width: 50%;
-
+  /* padding: 50px; */
   h1 {
     color: #ff8303;
     font-weight: 900;
@@ -11,7 +11,6 @@ export const Info = styled.div`
   }
 
   h2 {
-
     color: #f0e3ca;
     font-weight: 700;
     font-size: 40px;
@@ -19,10 +18,11 @@ export const Info = styled.div`
   }
 
   h4 {
-
+    margin-top: 10px;
     color: #f0e3ca;
     font-weight: 400;
     font-size: 20px;
     line-height: 21px;
+    padding-right: 170px;
   }
 `;

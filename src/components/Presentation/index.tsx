@@ -4,15 +4,12 @@ import picture from "../../assets/pv.jpg";
 import Code from "../Code";
 
 const Presentation = () => {
-  return (<S.Container>
-    <S.PictureContainer>
-      <img src={picture} alt="picture of the profile"/>
-    </S.PictureContainer>
+  return (
+    <S.Container>
+      <img src={picture} alt="picture of the profile" />
 
-
-    <S.TextContainer>
-    <h6>
-      {`let button_menu = document.querySelector(".header_button"); 
+      <h6>
+        {`let button_menu = document.querySelector(".header_button"); 
 let float_menu  = document.querySelector(".header_menu--float");
 
 let line_top   = document.querySelector(".header_button_line--top");
@@ -40,10 +37,10 @@ function writeSymbols() {
 
     writeSymbols();
     }
-}`}</h6>
-    </S.TextContainer>
+}`}
+      </h6>
     </S.Container>
-      );
+  );
 };
 
 export default Presentation;
