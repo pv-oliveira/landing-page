@@ -6,10 +6,12 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 0px 120px;
-/* gap: 127px; */
 
-/* width: 100%; */
 height: 80px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
 `
 
 export const MenuList = styled.ul`
