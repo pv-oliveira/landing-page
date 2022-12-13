@@ -1,6 +1,7 @@
-import Description from "../components/Description";
+import Description from "../components/about-me";
 import Info from "../components/Info";
 import Presentation from "../components/Presentation";
+import Skills from "../components/Skills";
 import FrontEnd from "../templates/Frontend";
 
 import * as S from "./styles";
@@ -15,6 +16,7 @@ function Main() {
           <Presentation />
         </S.Container>
         <Description />
+        <Skills />
       </S.ColumnContainer>
     </FrontEnd>
   );
