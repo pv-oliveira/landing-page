@@ -5,9 +5,9 @@ const Info = () => {
     <S.Info>
       <h1>Paulo Victor</h1>
       <h2>Developer</h2>
-      <h4>
+      <h3>
         Frontend developer looking for ideas and projects for himself and others
-      </h4>
+      </h3>
     </S.Info>
   );
 };

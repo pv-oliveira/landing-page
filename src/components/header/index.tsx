@@ -1,25 +1,23 @@
-import * as S from "./styles";
+import * as S from './styles'
 
 import Logo from '../../assets/Ontalex.svg';
 
 const Header = () => {
   return (
     <S.Container>
-      <div>
-        <img src={Logo} alt='Logo Image'></img>
-      </div>
+        <img src={Logo} alt='Logo Image'/>
       <S.MenuList>
         <S.ItemList>
           <a href="#" className="item1">About Me</a> 
         </S.ItemList>
         <S.ItemList>
-          <a href="#">Skills</a> 
+          <a href="#" className='item2'>Skills</a> 
         </S.ItemList>
         <S.ItemList>
-          <a href="#">Pet-Projects</a> 
+          <a href="#" className='item3'>Pet-Projects</a> 
         </S.ItemList>
         <S.ItemList>
-          <a href="#">Contacts</a> 
+          <a href="#" className='item4'>Contacts</a> 
         </S.ItemList>
       </S.MenuList>
     </S.Container>

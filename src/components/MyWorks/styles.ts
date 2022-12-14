@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* skills */
+  /* portfolio */
 
   /* Auto layout */
 
@@ -13,33 +13,31 @@ export const Container = styled.div`
   gap: 32px;
 
   /* width: 1440px; */
-  height: 494px;
+  height: 537.91px;
 
   background: radial-gradient(
-    100% 100% at 50% 0.03%,
-    #1f1e1b 27.25%,
+    100.01% 100.01% at 50% 100.04%,
+    #1f1e1b 31.04%,
     #1b1a17 100%
   );
 
   /* Inside auto layout */
 
   flex: none;
-  order: 3;
+  order: 4;
   flex-grow: 0;
 
   h3 {
-    /* My Skills */
+    /* My Works */
 
-    width: 1091px;
-    height: 34px;
+    width: 185.81px;
+    height: 57.91px;
 
     font-family: "Inconsolata";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 34px;
-    /* identical to box height */
-
     text-align: center;
 
     color: #ff8303;
@@ -52,23 +50,25 @@ export const Container = styled.div`
   }
 
   span {
-    /* line_skills */
+    /* grid_portfolio */
 
     /* Auto layout */
 
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
     gap: 16px;
 
-    width: 1064px;
-    height: 300px;
+    /* width: 1440px; */
+    height: 320px;
 
     /* Inside auto layout */
 
     flex: none;
     order: 1;
+    align-self: stretch;
     flex-grow: 0;
   }
 `;

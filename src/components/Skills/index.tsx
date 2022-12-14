@@ -1,7 +1,11 @@
-import SkillsItem from '../Skills-Itens/indes';
+import SkillsItem from '../Skills-Itens';
 import * as S from './styles';
 
-import logo from '../../assets/iconhtml.svg'
+import logoHTML from '../../assets/iconhtml.svg';
+import logoCSS3 from '../../assets/iconcss.svg';
+import logoJS from '../../assets/iconjs.svg';
+import logoSCSS from '../../assets/iconscss.svg';
+import logoGIT from '../../assets/icongit.svg';
 
 
 const Skills = () => {
@@ -9,11 +13,11 @@ const Skills = () => {
     <S.Container>
         <h3>My Skills</h3>   
         <span>
-            <SkillsItem logo={logo} text={'HTML5'} />
-            <SkillsItem logo={logo} text={'HTML5'} />
-            <SkillsItem logo={logo} text={'HTML5'} />
-            <SkillsItem logo={logo} text={'HTML5'} />
-            <SkillsItem logo={logo} text={'HTML5'} />
+            <SkillsItem logo={logoHTML} text={'HTML5'} />
+            <SkillsItem logo={logoCSS3} text={'CSS3'} />
+            <SkillsItem logo={logoJS} text={'JavaScript'} />
+            <SkillsItem logo={logoSCSS} text={'SCSS'} />
+            <SkillsItem logo={logoGIT} text={'Git'} />
         </span>
     </S.Container>
   )

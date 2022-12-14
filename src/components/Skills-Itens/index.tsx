@@ -10,10 +10,10 @@ interface props {
 const SkillsItem = ({logo, text}: props) => {
   return (
     <S.Container>
-        <span>
+        <div>
             <img src={logo}></img>
             <h5>{text}</h5>
-        </span>
+        </div>
     </S.Container>
   )
 }

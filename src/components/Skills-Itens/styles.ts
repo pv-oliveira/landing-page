@@ -17,7 +17,7 @@ export const Container = styled.div`
   align-items: center;
   /* background-color: red; */
 
-  span {
+  div {
     /* Frame 18 */
 
     /* Auto layout */
