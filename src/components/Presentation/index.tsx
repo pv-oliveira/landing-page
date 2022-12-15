@@ -1,6 +1,6 @@
 import * as S from "./styles";
 
-import picture from "../../assets/Logo.svg";
+import picture from "../../assets/pv.jpg";
 import Code from "../Code";
 
 const Presentation = () => {

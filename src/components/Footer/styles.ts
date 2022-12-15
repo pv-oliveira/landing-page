@@ -136,7 +136,7 @@ export const ItensContactContainer = styled.span`
 export const MenuList = styled.ul`
   /* Group 19 */
 
-  width: 204px;
+  width: 330px;
   height: 96px;
 
   /* Inside auto layout */
@@ -166,24 +166,48 @@ export const ItemList = styled.li`
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 0px;
-  gap: 16px;
+  gap: 8px;
+  align-items: center;
+
+  svg{
+    width: 25px;
+    height: 25px;
+
+  }
 
   a {
     &.item1 {
       width: 204px;
       height: 32px;
-      left: 0px;
-      top: 0px;
+      font-family: "Inconsolata";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 25px;
+
+      color: #ff8303;
     }
 
     &.item2 {
+      /* @ontalex */
+
       width: 204px;
       height: 32px;
-      left: 0px;
-      top: 64px;
+
+      font-family: "Inconsolata";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 25px;
+
+      color: #ff8303;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 1;
+      flex-grow: 0;
     }
 
     &.item3 {
@@ -191,6 +215,14 @@ export const ItemList = styled.li`
       height: 32px;
       left: 252px;
       top: 0px;
+
+      font-family: "Inconsolata";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 25px;
+
+      color: #ff8303;
     }
 
     &.item4 {
@@ -198,6 +230,14 @@ export const ItemList = styled.li`
       height: 32px;
       left: 252px;
       top: 64px;
+
+      font-family: "Inconsolata";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 25px;
+
+      color: #ff8303;
     }
   }
 `;

@@ -34,6 +34,29 @@ export const Container = styled.header`
     order: 0;
     flex-grow: 0;
   }
+
+  @media only screen and (max-width: 940px) {
+    /* header */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 120px;
+    gap: 16px;
+
+    width: 704px;
+    height: 112px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
 `;
 
 export const MenuList = styled.ul`
@@ -56,6 +79,27 @@ export const MenuList = styled.ul`
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+
+  @media only screen and (max-width: 940px) {
+    /* menu */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+
+    width: 532px;
+    height: 25px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
 `;
 
 export const ItemList = styled.li`

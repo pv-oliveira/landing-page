@@ -1,5 +1,7 @@
 import * as S from './styles'
 
+import { AiOutlineMail, AiOutlineInstagram, AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai'
+
 import logo from '../../assets/Ontalex.svg';
 
 const Footer = () => {
@@ -15,18 +17,22 @@ const Footer = () => {
             <S.ItensContactContainer>  
                 <S.MenuList className='menu1'>
                     <S.ItemList>
-                        <a className='item1'>email</a>
+                        <AiOutlineMail />
+                        <a className='item1'>paulo.victor.ig@hotmail.com</a>
                     </S.ItemList>
                     <S.ItemList>
-                        <a className='item2'>@insta</a>
+                        <AiOutlineInstagram />
+                        <a className='item2'>@paulom_oliveira</a>
                     </S.ItemList>
                 </S.MenuList>
                 <S.MenuList className='menu2'>
                     <S.ItemList>
-                    <a className='item3'>Github</a>
+                        <AiOutlineGithub />
+                        <a className='item3'>Github</a>
                     </S.ItemList>
                     <S.ItemList>
-                    <a className='item4'>Linkedin</a>
+                        <AiFillLinkedin />
+                        <a className='item4'>Linkedin</a>
                     </S.ItemList>
                 </S.MenuList>
             </S.ItensContactContainer>
