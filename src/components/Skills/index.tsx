@@ -12,13 +12,17 @@ const Skills = () => {
   return (
     <S.Container>
         <h3>My Skills</h3>   
-        <span>
+        <section>
+          <span className='item1'>
             <SkillsItem logo={logoHTML} text={'HTML5'} />
             <SkillsItem logo={logoCSS3} text={'CSS3'} />
             <SkillsItem logo={logoJS} text={'JavaScript'} />
+          </span>
+          <span className='item2'>
             <SkillsItem logo={logoSCSS} text={'SCSS'} />
             <SkillsItem logo={logoGIT} text={'Git'} />
-        </span>
+          </span>
+        </section>
     </S.Container>
   )
 }

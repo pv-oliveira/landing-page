@@ -23,6 +23,14 @@ export const Container = styled.footer`
   order: 5;
   align-self: stretch;
   flex-grow: 0;
+
+  @media only screen and (max-width: 850px) {
+    flex-direction: column;
+    padding: 64px 0px;
+
+    width: 704px;
+    height: 449px;
+  }
 `;
 
 export const FrameContainer = styled.span`
@@ -43,7 +51,6 @@ export const FrameContainer = styled.span`
 
   flex: none;
   order: 0;
-  align-self: stretch;
   flex-grow: 0;
 
   h6 {
@@ -66,27 +73,52 @@ export const FrameContainer = styled.span`
     order: 1;
     flex-grow: 0;
   }
+
+  @media only screen and (max-width: 850px) {
+    /* Auto layout */
+
+    justify-content: center;
+    align-items: center;
+
+    width: 339px;
+    height: 106px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    img {
+      width: 339px;
+      height: 44px;
+    }
+
+    h6 {
+      width: 339px;
+      height: 46px;
+    }
+  }
 `;
 
-export const ContactContainer = styled.span`
+export const ContactContainer = styled.section`
   /* Frame 19 */
 
   /* Auto layout */
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0px;
   gap: 16px;
 
-  width: 384px;
+  width: auto;
   height: 146px;
 
   /* Inside auto layout */
 
   flex: none;
   order: 1;
-  align-self: stretch;
   flex-grow: 0;
 
   h6 {
@@ -110,6 +142,24 @@ export const ContactContainer = styled.span`
     order: 0;
     flex-grow: 0;
   }
+
+  @media only screen and (max-width: 850px) {
+    justify-content: center;
+    width: 584px;
+    height: 151px;
+
+    h6 {
+      text-align: center;
+      width: 100%;
+      height: 39px;
+
+      font-family: "Impact";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 39px;
+    }
+  }
 `;
 
 export const ItensContactContainer = styled.span`
@@ -131,6 +181,10 @@ export const ItensContactContainer = styled.span`
   flex: none;
   order: 1;
   flex-grow: 0;
+
+  @media only screen and (max-width: 850px) {
+    width: auto;
+  }
 `;
 
 export const MenuList = styled.ul`
@@ -157,6 +211,9 @@ export const MenuList = styled.ul`
     order: 1;
     flex-grow: 0;
   }
+
+  @media only screen and (max-width: 850px) {
+  }
 `;
 
 export const ItemList = styled.li`
@@ -170,10 +227,9 @@ export const ItemList = styled.li`
   gap: 8px;
   align-items: center;
 
-  svg{
+  svg {
     width: 25px;
     height: 25px;
-
   }
 
   a {

@@ -35,12 +35,7 @@ export const Container = styled.header`
     flex-grow: 0;
   }
 
-  @media only screen and (max-width: 940px) {
-    /* header */
-
-    /* Auto layout */
-
-    display: flex;
+  @media only screen and (max-width: 850px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -56,6 +51,23 @@ export const Container = styled.header`
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+  }
+
+  @media only screen and (max-width: 450px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 16px;
+
+    width: 100%;
+    height: 80px;
+
+    img {
+      margin-left: 18px;
+      width: 180px;
+      height: 39px;
+    }
   }
 `;
 
@@ -80,7 +92,7 @@ export const MenuList = styled.ul`
   align-self: stretch;
   flex-grow: 0;
 
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 850px) {
     /* menu */
 
     /* Auto layout */
@@ -91,7 +103,6 @@ export const MenuList = styled.ul`
     padding: 0px;
     gap: 64px;
 
-    width: 532px;
     height: 25px;
 
     /* Inside auto layout */
@@ -99,6 +110,10 @@ export const MenuList = styled.ul`
     flex: none;
     order: 1;
     flex-grow: 0;
+
+    @media only screen and (max-width: 450px) {
+      display: none;
+    }
   }
 `;
 

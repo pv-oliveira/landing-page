@@ -1,12 +1,13 @@
 import * as S from "./styles";
 
 import picture from "../../assets/pv.jpg";
-import Code from "../Code";
 
 const Presentation = () => {
   return (
     <S.Container>
-      <img src={picture} alt="picture of the profile" />
+      <span>
+        <img src={picture} alt="picture of the profile" />
+      </span>
 
       <h6>
         {`let button_menu = document.querySelector(".header_button"); 

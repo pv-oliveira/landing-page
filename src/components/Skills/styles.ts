@@ -51,7 +51,7 @@ export const Container = styled.div`
     flex-grow: 0;
   }
 
-  span {
+  section {
     /* line_skills */
 
     /* Auto layout */
@@ -70,5 +70,43 @@ export const Container = styled.div`
     flex: none;
     order: 1;
     flex-grow: 0;
+
+    span {
+      display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    height: 810px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+
+    section {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      /* flex-flow: column wrap; */
+      padding: 0px 64px;
+      gap: 16px;
+
+      width: 704px;
+      height: 616px;
+
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      
+
+
+    }
+
+    h3 {
+      width: auto;
+    }
   }
 `;

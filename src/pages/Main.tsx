@@ -4,6 +4,7 @@ import Info from "../components/Info";
 import MyWorks from "../components/MyWorks";
 import Presentation from "../components/Presentation";
 import Skills from "../components/Skills";
+import Welcome from "../components/Welcome";
 import FrontEnd from "../templates/Frontend";
 
 import * as S from "./styles";
@@ -12,10 +13,7 @@ function Main() {
   return (
     <FrontEnd>
       <S.ColumnContainer>
-        <S.Container>
-          <Info />
-          <Presentation />
-        </S.Container>
+        <Welcome />
         <Description />
         <Skills />
         <MyWorks />

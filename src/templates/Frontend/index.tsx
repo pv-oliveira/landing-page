@@ -8,7 +8,7 @@ type FrontProps = {
 const FrontEnd = ({ children }: FrontProps) => {
   return <S.Container>
       <Header />
-      <main>{children}</main>
+      {/* <main>{children}</main> */}
     </S.Container>
   
 };

@@ -12,7 +12,7 @@ const Footer = () => {
 
             <h6>If you liked my work and you need me, I'm ready to talk to you.</h6>
         </S.FrameContainer>
-        <S.ContactContainer>
+        <S.ContactContainer> 
             <h6>Contacts</h6>
             <S.ItensContactContainer>  
                 <S.MenuList className='menu1'>
